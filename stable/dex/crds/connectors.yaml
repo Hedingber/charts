@@ -4,9 +4,6 @@ metadata:
   name: connectors.dex.coreos.com
   labels:
     app.kubernetes.io/name: dex
-  annotations:
-    "helm.sh/hook": crd-install
-    "helm.sh/hook-delete-policy": "before-hook-creation"
 spec:
   group: dex.coreos.com
   version: v1
